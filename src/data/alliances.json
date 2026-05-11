@@ -18,33 +18,15 @@
     "tagline": "Fusion. Power. Strategy."
   },
   {
-    "id": "war",
-    "name": "WAR",
-    "fullName": "M ALLIANCE",
-    "rank": 5,
-    "members": 100,
-    "svsScore": "NAP5 Core",
-    "description": "Defensive specialists and strategic coordinators maintaining server stability and tactical excellence.",
-    "achievements": [
-      "NAP5 Founder",
-      "Strategic Defense",
-      "Unity Champions"
-    ],
-    "leader": "Winter Command",
-    "color": "#8efff9",
-    "bgGradient": "from-[#8efff9]/20 to-[#00f0ff]/20",
-    "tagline": "Defense. Unity. Honor."
-  },
-  {
     "id": "arc",
     "name": "ARC",
     "fullName": "RiseACEssins",
     "rank": 2,
     "members": 100,
-    "svsScore": "NAP5 Elite",
-    "description": "Tactical innovators specializing in coordinated strikes and strategic positioning within NAP5.",
+    "svsScore": "NAP4 Elite",
+    "description": "Tactical innovators specializing in coordinated strikes and strategic positioning within NAP4.",
     "achievements": [
-      "NAP5 Core Member",
+      "NAP4 Core Member",
       "Tactical Excellence",
       "Event Coordination"
     ],
@@ -54,13 +36,31 @@
     "tagline": "Innovation. Precision. Storm."
   },
   {
-          "id": "apx",
-      "name": "APX",
-      "fullName": "ApexPredators",
-      "rank": 4,
-      "members": 97,
-    "svsScore": "NAP5 Veteran",
-    "description": "Originally from server 1641, APX brings veteran experience and strategic depth to NAP5.",
+    "id": "phw",
+    "name": "PHW",
+    "fullName": "PhoenixWarrios",
+    "rank": 3,
+    "members": 100,
+    "svsScore": "NAP4 Rising",
+    "description": "Rising alliance within NAP4 system, known for adaptability and coordinated event participation.",
+    "achievements": [
+      "NAP4 Integration",
+      "Event Specialists",
+      "Rising Power"
+    ],
+    "leader": "Phoenix Commander",
+    "color": "#fbbf24",
+    "bgGradient": "from-[#fbbf24]/20 to-[#f59e0b]/20",
+    "tagline": "Rebirth. Ascension. Victory."
+  },
+  {
+    "id": "apx",
+    "name": "APX",
+    "fullName": "ApexPredators",
+    "rank": 4,
+    "members": 97,
+    "svsScore": "NAP4 Veteran",
+    "description": "Originally from server 1641, APX brings veteran experience and strategic depth to NAP4.",
     "achievements": [
       "Cross-Server Veterans",
       "Strategic Experience"
@@ -69,23 +69,5 @@
     "color": "#ff004f",
     "bgGradient": "from-[#ff004f]/20 to-[#bf00ff]/20",
     "tagline": "Experience. Loyalty. Excellence."
-  },
-  {
-    "id": "phw",
-    "name": "PHW",
-    "fullName": "PhoenixWarrios",
-    "rank": 3,
-    "members": 100,
-    "svsScore": "NAP5 Rising",
-    "description": "Rising alliance within NAP5 system, known for adaptability and coordinated event participation.",
-    "achievements": [
-      "NAP5 Integration",
-      "Event Specialists",
-      "Rising Power"
-    ],
-    "leader": "Phoenix Commander",
-    "color": "#fbbf24",
-    "bgGradient": "from-[#fbbf24]/20 to-[#f59e0b]/20",
-    "tagline": "Rebirth. Ascension. Victory."
   }
 ]

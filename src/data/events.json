@@ -122,35 +122,5 @@
         "isVoteDependent": true
       }
     ]
-  },
-  {
-    "name": "WAR",
-    "color": "#8efff9",
-    "events": [
-      {
-        "name": "Bear",
-        "emoji": "🧸",
-        "times": ["14:00 UTC"],
-        "color": "#00f0ff"
-      },
-      {
-        "name": "Foundry",
-        "emoji": "🔥",
-        "times": ["14:00 UTC"],
-        "color": "#8efff9"
-      },
-      {
-        "name": "Canyon",
-        "emoji": "🏔️",
-        "times": ["14:00 UTC"],
-        "color": "#bf00ff"
-      },
-      {
-        "name": "CJ",
-        "emoji": "🗳️",
-        "times": ["14:00 UTC"],
-        "color": "#a855f7"
-      }
-    ]
   }
 ]

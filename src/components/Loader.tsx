@@ -102,7 +102,7 @@ const Loader = ({ onComplete }: LoaderProps) => {
     
     const statusMessages = [
       'INITIALIZING SYSTEM...',
-      'LOADING NAP5 DATABASE...',
+      'LOADING NAP4 DATABASE...',
               'CONNECTING TO STATE 1676...',
       'VERIFYING ALLIANCE DATA...',
       'FINALIZING CONNECTION...',

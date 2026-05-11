@@ -31,13 +31,13 @@ const Events = () => {
           className="text-center mb-16"
         >
           <div className="text-[#8efff9] font-mono text-sm mb-4">
-            &gt; NAP5_EVENT_COORDINATION_SYSTEM...
+            &gt; NAP4_EVENT_COORDINATION_SYSTEM...
           </div>
           <h2 className="text-4xl sm:text-5xl font-heading font-bold text-gradient text-glow-cyan mb-6">
             EVENT SCHEDULE MATRIX
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Synchronized event timing across all <span className="text-[#00f0ff]">NAP5 alliances</span>. 
+            Synchronized event timing across all <span className="text-[#00f0ff]">NAP4 alliances</span>. 
             Coordinated strategy ensures maximum efficiency and dominance.
           </p>
           <div className="mt-6 text-[#8efff9] font-mono text-sm">

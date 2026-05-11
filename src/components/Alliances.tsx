@@ -116,13 +116,13 @@ const Alliances = () => {
           className="text-center mb-16"
         >
           <div className="text-[#8efff9] font-mono text-sm mb-4">
-            &gt; ACCESSING_NAP5_DATABASE...
+            &gt; ACCESSING_NAP4_DATABASE...
           </div>
           <h2 className="text-4xl sm:text-5xl font-heading font-bold text-gradient text-glow-cyan mb-6">
-            NAP5 ALLIANCE NETWORK
+            NAP4 ALLIANCE NETWORK
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Five elite alliances united under the <span className="text-[#00f0ff]">NAP5 system</span> - 
+            Four elite alliances united under the <span className="text-[#00f0ff]">NAP4 system</span> - 
             the most strategic and coordinated alliance network in Whiteout Survival.
           </p>
           <div className="mt-6 text-[#8efff9] font-mono text-sm">

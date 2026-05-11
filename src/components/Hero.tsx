@@ -296,7 +296,7 @@ const Hero = () => {
               Strategy, Unity, and Harmony
             </p>
             <div className="text-[#8efff9] text-sm lg:text-base font-mono">
-              &gt; STATUS: OPERATIONAL | NAP5 SYSTEM ACTIVE | SVS VICTORIES: 9
+              &gt; STATUS: OPERATIONAL | NAP4 SYSTEM ACTIVE | SVS VICTORIES: 9
             </div>
           </motion.div>
 
@@ -318,8 +318,8 @@ const Hero = () => {
                 <div className="text-gray-400 text-sm">SVS Prep Losses</div>
               </div>
               <div className="panel-neon p-4 rounded-lg">
-                <div className="text-[#00f0ff] text-2xl font-bold">5</div>
-                <div className="text-gray-400 text-sm">NAP5 Alliances</div>
+                <div className="text-[#00f0ff] text-2xl font-bold">4</div>
+                <div className="text-gray-400 text-sm">NAP4 Alliances</div>
               </div>
               <div className="panel-neon p-4 rounded-lg">
                 <div className="text-[#00f0ff] text-2xl font-bold">4</div>
@@ -361,7 +361,7 @@ const Hero = () => {
               href="#alliances"
               className="group relative px-8 py-4 panel-neon text-[#00f0ff] rounded-lg font-semibold text-lg font-mono transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-3"
             >
-              <span>VIEW NAP5 ALLIANCES</span>
+              <span>VIEW NAP4 ALLIANCES</span>
               <Users className="w-5 h-5" />
             </a>
           </motion.div>

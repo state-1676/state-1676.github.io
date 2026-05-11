@@ -10,22 +10,9 @@ const Join = () => {
           <span className="text-gradient">Interested in Joining or Transferring to 1676?</span>
         </h2>
         <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
-          If you want us to contact you about recruitment or future transfers, fill out our short form and we will reach out via in-game message. For questions and chatting with us, join the Discord below.
+          Interested in joining or transferring to 1676? Join our Discord to chat with us directly.
         </p>
-        <div className="mt-8 flex flex-col sm:flex-row flex-wrap gap-4 justify-center items-center">
-          <a
-            href={serverConfig.recruitmentFormUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group relative px-8 py-4 bg-gradient-to-r from-[#00f0ff] to-[#8efff9] text-[#050d1c] rounded-lg font-bold text-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 inline-flex items-center"
-          >
-            <span className="font-mono">REQUEST CONTACT</span>
-            <span className="sr-only">Opens Google Form in a new tab</span>
-            <div className="absolute -top-1 -left-1 w-3 h-3 border-l-2 border-t-2 border-[#00f0ff]" />
-            <div className="absolute -top-1 -right-1 w-3 h-3 border-r-2 border-t-2 border-[#00f0ff]" />
-            <div className="absolute -bottom-1 -left-1 w-3 h-3 border-l-2 border-b-2 border-[#00f0ff]" />
-            <div className="absolute -bottom-1 -right-1 w-3 h-3 border-r-2 border-b-2 border-[#00f0ff]" />
-          </a>
+        <div className="mt-8 flex justify-center">
           <a
             href={serverConfig.recruitmentDiscordLink}
             target="_blank"
@@ -37,8 +24,7 @@ const Join = () => {
           </a>
         </div>
         <p className="mt-3 text-sm text-gray-400 max-w-xl mx-auto">
-          The contact button opens a Google Form for player details and preferences. Discord opens{' '}
-          <span className="text-gray-300">1676 Transfer Chat</span> for join and transfer questions.
+          Opens the <span className="text-gray-300">1676 Transfer Chat</span> Discord for join and transfer questions.
         </p>
       </div>
     </section>
