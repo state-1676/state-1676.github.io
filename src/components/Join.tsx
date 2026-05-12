@@ -1,5 +1,7 @@
 'use client';
 
+import { motion } from 'framer-motion';
+import { Zap } from 'lucide-react';
 import { serverConfig } from '@/data';
 
 const Join = () => {
@@ -17,10 +19,20 @@ const Join = () => {
             href={serverConfig.recruitmentDiscordLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-4 rounded-lg font-bold text-lg border-2 border-[#5865f2]/80 text-[#c9d8ff] bg-[#5865f2]/15 hover:bg-[#5865f2]/25 hover:border-[#5865f2] transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-mono"
+            className="group relative px-8 py-4 bg-gradient-to-r from-[#00f0ff] to-[#8efff9] text-[#050d1c] rounded-lg font-bold text-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-3 animate-pulse-glow"
           >
-            1676 Transfer Chat (Discord)
+            <span className="font-mono">1676 TRANSFER CHAT</span>
             <span className="sr-only">Opens Discord invite in a new tab</span>
+            <motion.div
+              animate={{ x: [0, 5, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity }}
+            >
+              <Zap className="w-5 h-5" />
+            </motion.div>
+            <div className="absolute -top-1 -left-1 w-3 h-3 border-l-2 border-t-2 border-[#00f0ff]" />
+            <div className="absolute -top-1 -right-1 w-3 h-3 border-r-2 border-t-2 border-[#00f0ff]" />
+            <div className="absolute -bottom-1 -left-1 w-3 h-3 border-l-2 border-b-2 border-[#00f0ff]" />
+            <div className="absolute -bottom-1 -right-1 w-3 h-3 border-r-2 border-b-2 border-[#00f0ff]" />
           </a>
         </div>
         <p className="mt-3 text-sm text-gray-400 max-w-xl mx-auto">

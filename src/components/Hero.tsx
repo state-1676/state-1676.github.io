@@ -314,8 +314,8 @@ const Hero = () => {
             </p>
             <div ref={statsRef} className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center mt-8">
               <div className="panel-neon p-4 rounded-lg">
-                <div className="text-[#00f0ff] text-2xl font-bold">0</div>
-                <div className="text-gray-400 text-sm">SVS Prep Losses</div>
+                <div className="text-[#00f0ff] text-2xl font-bold">18</div>
+                <div className="text-gray-400 text-sm">SVS Prep Won</div>
               </div>
               <div className="panel-neon p-4 rounded-lg">
                 <div className="text-[#00f0ff] text-2xl font-bold">4</div>
