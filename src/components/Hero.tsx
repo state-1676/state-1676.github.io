@@ -286,7 +286,7 @@ const Hero = () => {
 
           {/* Full Alliance Transfer Banner */}
           <motion.a
-            href={serverConfig.recruitmentFormUrl}
+            href={serverConfig.recruitmentDiscordLink}
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
