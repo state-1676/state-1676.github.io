@@ -110,7 +110,7 @@ const Rules = () => {
   };
 
   return (
-    <section id="rules" className="py-20 bg-gradient-to-br from-[#050d1c] to-[#0f172a] relative overflow-hidden">
+    <section id="rules" className="py-20 bg-gradient-to-br from-[#050d1c]/70 to-[#0f172a]/70 relative overflow-hidden">
       {/* Background Grid */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{

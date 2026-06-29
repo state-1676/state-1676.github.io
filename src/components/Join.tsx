@@ -6,7 +6,7 @@ import { serverConfig } from '@/data';
 
 const Join = () => {
   return (
-    <section id="recruitment" className="py-20 bg-gradient-to-br from-[#101820] to-[#1e293b]">
+    <section id="recruitment" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold">
           <span className="text-gradient">Interested in Joining or Transferring to 1676?</span>

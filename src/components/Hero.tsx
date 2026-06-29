@@ -187,8 +187,8 @@ const Hero = () => {
 
   return (
     <section ref={heroRef} id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 sm:px-8 lg:px-12 xl:px-16 py-8 sm:py-12 lg:py-16">
-      {/* CryoCore Neon Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#050d1c] via-[#0f172a] to-[#050d1c]">
+      {/* CryoCore Neon Background — fixed, site-wide; all content scrolls over it */}
+      <div className="fixed inset-0 -z-10 bg-gradient-to-br from-[#050d1c] via-[#0f172a] to-[#050d1c]">
         {/* Grid Pattern Overlay */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{

@@ -161,7 +161,7 @@ const StateVideos = ({
       <section 
         ref={sectionRef} 
         id="videos" 
-        className="py-20 bg-gradient-to-br from-[#050d1c] to-[#0f172a] relative overflow-hidden"
+        className="py-20 bg-gradient-to-br from-[#050d1c]/70 to-[#0f172a]/70 relative overflow-hidden"
       >
         {/* Background Grid */}
         <div className="absolute inset-0 opacity-10">

@@ -9,7 +9,7 @@ const Events = () => {
   const allianceEventData = getAllEvents();
 
   return (
-    <section id="events" className="py-20 bg-gradient-to-br from-[#0f172a] to-[#050d1c] relative overflow-hidden">
+    <section id="events" className="py-20 bg-gradient-to-br from-[#0f172a]/70 to-[#050d1c]/70 relative overflow-hidden">
       {/* Background Grid */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
