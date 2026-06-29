@@ -15,10 +15,10 @@ export default function Home() {
       <Navigation />
       <Hero />
       {/* <ServerBanner /> */}
+      <Join />
       <Alliances />
       <Events />
       <StateVideos videos={videos} />
-      <Join />
       <Rules />
     </main>
   );

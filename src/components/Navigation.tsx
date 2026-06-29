@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
-import { Menu, X, Home, Users, Calendar, Camera, Scroll } from 'lucide-react';
+import { Menu, X, Home, Users, Calendar, Camera, Scroll, Hammer, ExternalLink } from 'lucide-react';
 import State1676Icon from './State1676Icon';
 import { serverConfig } from '@/data';
 
@@ -160,6 +160,45 @@ const Navigation = () => {
           </div>
         </div>
       </nav>
+
+      {/* Hanging "Foundry Planner" banner — desktop, aligned under JOIN_DISCORD */}
+      <div className="hidden lg:block fixed top-20 left-0 right-0 z-40 pointer-events-none">
+        <div className="max-w-7xl mx-auto px-6 flex justify-end">
+          <motion.a
+            href="https://wos-foundry-planner.co.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+            initial={{ y: -24, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 1.6, duration: 0.6, ease: 'easeOut' }}
+            className="group pointer-events-auto flex flex-col items-center"
+          >
+            {/* hanging strings */}
+            <div className="flex gap-10">
+              <span className="w-px h-5 bg-[#00f0ff]/60" style={{ boxShadow: '0 0 4px #00f0ff' }} />
+              <span className="w-px h-5 bg-[#00f0ff]/60" style={{ boxShadow: '0 0 4px #00f0ff' }} />
+            </div>
+            {/* swinging sign */}
+            <motion.div
+              animate={{ rotate: [-2.5, 2.5, -2.5] }}
+              transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut' }}
+              style={{ transformOrigin: 'top center' }}
+              className="relative panel-neon backdrop-blur-md border border-[#00f0ff]/50 rounded-lg px-4 py-2 animate-pulse-glow"
+            >
+              {/* pins where the strings attach */}
+              <span className="absolute -top-1 left-3 w-1.5 h-1.5 rounded-full bg-[#00f0ff]" style={{ boxShadow: '0 0 6px #00f0ff' }} />
+              <span className="absolute -top-1 right-3 w-1.5 h-1.5 rounded-full bg-[#00f0ff]" style={{ boxShadow: '0 0 6px #00f0ff' }} />
+              <div className="flex items-center gap-2">
+                <Hammer className="w-4 h-4 text-[#00f0ff] shrink-0" style={{ filter: 'drop-shadow(0 0 4px #00f0ff)' }} />
+                <span className="font-mono text-xs font-bold uppercase tracking-wide text-gradient whitespace-nowrap">
+                  Try our Foundry Planner
+                </span>
+                <ExternalLink className="w-3.5 h-3.5 text-[#8efff9] shrink-0 transition-transform duration-300 group-hover:translate-x-0.5" />
+              </div>
+            </motion.div>
+          </motion.a>
+        </div>
+      </div>
 
       {/* Mobile Navigation */}
       <div className="lg:hidden">

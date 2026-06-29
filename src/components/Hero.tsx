@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Snowflake, Zap, Users, ArrowRight } from 'lucide-react';
+import { Snowflake, Users, ArrowRight } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -352,43 +352,6 @@ const Hero = () => {
               </div>
               
             </div>
-          </motion.div>
-
-          {/* CTA Buttons */}
-          <motion.div
-            ref={buttonsRef}
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.8, duration: 0.8 }}
-            className="flex flex-col sm:flex-row gap-6 justify-center items-center"
-          >
-            <a
-              href={serverConfig.discordLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative px-8 py-4 bg-gradient-to-r from-[#00f0ff] to-[#8efff9] text-[#050d1c] rounded-lg font-bold text-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-3 animate-pulse-glow"
-            >
-              <span className="font-mono">JOIN DISCORD</span>
-              <motion.div
-                animate={{ x: [0, 5, 0] }}
-                transition={{ duration: 1.5, repeat: Infinity }}
-              >
-                <Zap className="w-5 h-5" />
-              </motion.div>
-              {/* Corner accents */}
-              <div className="absolute -top-1 -left-1 w-3 h-3 border-l-2 border-t-2 border-[#00f0ff]" />
-              <div className="absolute -top-1 -right-1 w-3 h-3 border-r-2 border-t-2 border-[#00f0ff]" />
-              <div className="absolute -bottom-1 -left-1 w-3 h-3 border-l-2 border-b-2 border-[#00f0ff]" />
-              <div className="absolute -bottom-1 -right-1 w-3 h-3 border-r-2 border-b-2 border-[#00f0ff]" />
-            </a>
-            
-            <a
-              href="#alliances"
-              className="group relative px-8 py-4 panel-neon text-[#00f0ff] rounded-lg font-semibold text-lg font-mono transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-3"
-            >
-              <span>VIEW NAP3 ALLIANCES</span>
-              <Users className="w-5 h-5" />
-            </a>
           </motion.div>
 
         </motion.div>
