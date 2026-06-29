@@ -333,9 +333,7 @@ const Hero = () => {
             className="max-w-4xl mx-auto mb-12 space-y-4"
           >
             <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
-              Experience the most organized and strategic Whiteout Survival server. 
-              <span className="text-[#00f0ff]"> State 1676 </span> has never lost a preparation phase in SVS, 
-              showcasing unmatched coordination and commitment.
+              Experience the most organized and strategic Whiteout Survival server.
             </p>
             <div ref={statsRef} className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center mt-8">
               <div className="panel-neon p-4 rounded-lg">
