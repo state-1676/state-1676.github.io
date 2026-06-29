@@ -1,6 +1,6 @@
 # State 1676 — Community site
 
-Marketing and information site for **State 1676** in *Whiteout Survival*: NAP5 alliance network, event schedules, rules, embedded YouTube videos, and Discord links.
+Marketing and information site for **State 1676** in *Whiteout Survival*: NAP3 alliance network, event schedules, rules, embedded YouTube videos, and Discord links.
 
 Built with **Next.js 15** (App Router), **React 19**, **TypeScript**, **Tailwind CSS v4**, **Framer Motion**, and **GSAP**.
 
@@ -43,7 +43,7 @@ Most edits are **data-only**; no code changes needed for typical updates.
 ### `src/data/config.json`
 
 - **`discordLink`** — Main server Discord (Hero, nav, banner-style CTAs).
-- **`allianceDiscordLinks`** — Keys match alliance `id` in `alliances.json` (`th3`, `war`, `arc`, `apx`, `phw`). Used by alliance “Join … Discord” buttons.
+- **`allianceDiscordLinks`** — Keys match alliance `id` in `alliances.json` (`th3`, `arc`, `apx`). Used by alliance “Join … Discord” buttons.
 - **`recruitmentFormUrl`** — Google Form opened from the Join / recruitment section.
 
 ### `src/data/alliances.json`
@@ -52,7 +52,7 @@ Alliance identity: `id`, `name`, `fullName`, `rank`, `members`, colors, gradient
 
 ### `src/data/events.json`
 
-One object per alliance; **`name`** must match **`alliances.json`** `name` (e.g. `TH3`, `WAR`, `ARC`, `APX`, `PHW`). Use `"Vote Based"` and `isVoteDependent` where applicable.
+One object per alliance; **`name`** must match **`alliances.json`** `name` (e.g. `TH3`, `ARC`, `APX`). Use `"Vote Based"` and `isVoteDependent` where applicable.
 
 ### `src/data/videos.json`
 

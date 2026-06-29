@@ -36,7 +36,7 @@ const ServerBanner = () => {
     },
     {
       icon: Shield,
-      text: "NAP4: TOP 4 ALLIANCES WORKING TOGETHER",
+      text: "NAP3: TOP 3 ALLIANCES WORKING TOGETHER",
       color: "#00f0ff"
     },
     {
@@ -325,7 +325,7 @@ const ServerBanner = () => {
                 className="group relative px-10 py-4 panel-neon text-[#00f0ff] rounded-lg font-semibold text-xl font-mono transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-3"
                 whileHover={{ scale: 1.05 }}
               >
-                <span>EXPLORE NAP4</span>
+                <span>EXPLORE NAP3</span>
                 <Target className="w-6 h-6" />
               </motion.a>
             </div>

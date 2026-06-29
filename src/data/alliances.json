@@ -8,7 +8,7 @@
     "svsScore": "Alliance Power #1",
     "description": "Born from the fusion of AOT and 3NG, TH3 represents elite strategic excellence and coordinated warfare.",
     "achievements": [
-      "#1 Alliance Power Ranking",
+      "Diplomatic Mastery",
       "Top-ranked in Crazy Joe",
       "SVS Champions"
     ],
@@ -23,11 +23,11 @@
     "fullName": "RiseACEssins",
     "rank": 2,
     "members": 100,
-    "svsScore": "NAP4 Elite",
-    "description": "Tactical innovators specializing in coordinated strikes and strategic positioning within NAP4.",
+    "svsScore": "NAP3 Elite",
+    "description": "Tactical innovators specializing in coordinated strikes and strategic positioning within NAP3.",
     "achievements": [
-      "NAP4 Core Member",
-      "Tactical Excellence",
+      "NAP3 Core Member",
+      "Top Alliance Power",
       "Event Coordination"
     ],
     "leader": "Storm Leader",
@@ -36,31 +36,13 @@
     "tagline": "Innovation. Precision. Storm."
   },
   {
-    "id": "phw",
-    "name": "PHW",
-    "fullName": "PhoenixWarrios",
-    "rank": 3,
-    "members": 100,
-    "svsScore": "NAP4 Rising",
-    "description": "Rising alliance within NAP4 system, known for adaptability and coordinated event participation.",
-    "achievements": [
-      "NAP4 Integration",
-      "Event Specialists",
-      "Rising Power"
-    ],
-    "leader": "Phoenix Commander",
-    "color": "#fbbf24",
-    "bgGradient": "from-[#fbbf24]/20 to-[#f59e0b]/20",
-    "tagline": "Rebirth. Ascension. Victory."
-  },
-  {
     "id": "apx",
     "name": "APX",
     "fullName": "ApexPredators",
-    "rank": 4,
+    "rank": 3,
     "members": 97,
-    "svsScore": "NAP4 Veteran",
-    "description": "Originally from server 1641, APX brings veteran experience and strategic depth to NAP4.",
+    "svsScore": "NAP3 Veteran",
+    "description": "Originally from server 1641, APX brings veteran experience and strategic depth to NAP3.",
     "achievements": [
       "Cross-Server Veterans",
       "Strategic Experience"

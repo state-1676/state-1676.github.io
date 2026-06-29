@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Snowflake, Zap, Users } from 'lucide-react';
+import { Snowflake, Zap, Users, ArrowRight } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -284,6 +284,31 @@ const Hero = () => {
             </h1>
           </motion.div>
 
+          {/* Full Alliance Transfer Banner */}
+          <motion.a
+            href={serverConfig.recruitmentFormUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.8 }}
+            whileHover={{ scale: 1.02 }}
+            className="group relative block w-full overflow-hidden rounded-xl border-2 border-[#00f0ff]/60 bg-gradient-to-r from-[#00f0ff]/15 via-[#bf00ff]/15 to-[#ff004f]/15 px-6 py-4 sm:py-5 animate-pulse-glow"
+          >
+            <div className="flex items-center justify-center gap-3 sm:gap-4 text-center">
+              <Users className="w-5 h-5 sm:w-6 sm:h-6 text-[#00f0ff] shrink-0" style={{ filter: 'drop-shadow(0 0 6px #00f0ff)' }} />
+              <span className="font-mono font-bold uppercase tracking-wide text-base sm:text-xl lg:text-2xl text-gradient text-glow-cyan">
+                Looking for a full alliance transfer
+              </span>
+              <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 text-[#ff004f] shrink-0 transition-transform duration-300 group-hover:translate-x-1" style={{ filter: 'drop-shadow(0 0 6px #ff004f)' }} />
+            </div>
+            {/* Corner accents */}
+            <div className="absolute -top-0.5 -left-0.5 w-3 h-3 border-l-2 border-t-2 border-[#00f0ff]" />
+            <div className="absolute -top-0.5 -right-0.5 w-3 h-3 border-r-2 border-t-2 border-[#ff004f]" />
+            <div className="absolute -bottom-0.5 -left-0.5 w-3 h-3 border-l-2 border-b-2 border-[#00f0ff]" />
+            <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 border-r-2 border-b-2 border-[#ff004f]" />
+          </motion.a>
+
           {/* Subtitle */}
           <motion.div
             ref={subtitleRef}
@@ -296,7 +321,7 @@ const Hero = () => {
               Strategy, Unity, and Harmony
             </p>
             <div className="text-[#8efff9] text-sm lg:text-base font-mono">
-              &gt; STATUS: OPERATIONAL | NAP4 SYSTEM ACTIVE | SVS VICTORIES: 9
+              &gt; STATUS: OPERATIONAL | NAP3 SYSTEM ACTIVE | SVS VICTORIES: 9
             </div>
           </motion.div>
 
@@ -318,8 +343,8 @@ const Hero = () => {
                 <div className="text-gray-400 text-sm">SVS Prep Won</div>
               </div>
               <div className="panel-neon p-4 rounded-lg">
-                <div className="text-[#00f0ff] text-2xl font-bold">4</div>
-                <div className="text-gray-400 text-sm">NAP4 Alliances</div>
+                <div className="text-[#00f0ff] text-2xl font-bold">3</div>
+                <div className="text-gray-400 text-sm">NAP3 Alliances</div>
               </div>
               <div className="panel-neon p-4 rounded-lg">
                 <div className="text-[#00f0ff] text-2xl font-bold">4</div>
@@ -361,7 +386,7 @@ const Hero = () => {
               href="#alliances"
               className="group relative px-8 py-4 panel-neon text-[#00f0ff] rounded-lg font-semibold text-lg font-mono transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-3"
             >
-              <span>VIEW NAP4 ALLIANCES</span>
+              <span>VIEW NAP3 ALLIANCES</span>
               <Users className="w-5 h-5" />
             </a>
           </motion.div>

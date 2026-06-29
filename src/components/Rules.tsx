@@ -13,7 +13,7 @@ const Rules = () => {
       title: 'NAP Requirements',
       icon: Shield,
       color: '#00f0ff',
-      summary: 'Requirements to enter and maintain NAP4 membership.',
+      summary: 'Requirements to enter and maintain NAP3 membership.',
       details: [
         'Must reach at least 5th position in alliance ranking during the last SVS',
         'Respect: All members are expected to act with respect, fostering a friendly and collaborative gaming environment',
@@ -132,14 +132,14 @@ const Rules = () => {
           className="text-center mb-16"
         >
           <div className="text-[#8efff9] font-mono text-sm mb-4">
-            &gt; NAP4_PROTOCOL_SPECIFICATION...
+            &gt; NAP3_PROTOCOL_SPECIFICATION...
           </div>
           <h2 className="text-4xl sm:text-5xl font-heading font-bold text-gradient text-glow-cyan mb-6">
-            NAP4: Four Pillars of Strategic Cooperation
+            NAP3: Three Pillars of Strategic Cooperation
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Comprehensive ruleset ensuring <span className="text-[#00f0ff]">harmony, coordination, and mutual benefit</span> 
-            for all member alliances in the NAP4 system.
+            Comprehensive ruleset ensuring <span className="text-[#00f0ff]">harmony, coordination, and mutual benefit</span>
+            for all member alliances in the NAP3 system.
           </p>
           <div className="mt-6 text-[#8efff9] font-mono text-sm">
             &gt; PROTOCOL_STATUS: ACTIVE | ENFORCEMENT: MANDATORY | COMPLIANCE: 100%

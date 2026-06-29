@@ -1,7 +1,7 @@
 {
-  "serverName": "NAP4 Alliance Network",
+  "serverName": "NAP3 Alliance Network",
   "serverNumber": "1676",
-  "napSystem": "NAP4",
+  "napSystem": "NAP3",
   "totalMembers": 500,
   "discordLink": "https://discord.gg/wc6KtKUqpb",
   "recruitmentFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLScpvuUia03g-mCLmPJwY_BPhK6pD5ofpRdQk6sEmfQMhLSj-Q/viewform?usp=header",
@@ -9,12 +9,11 @@
   "allianceDiscordLinks": {
     "th3": "https://discord.gg/2EXm74PXnS",
     "apx": "https://discord.gg/2EXm74PXnS",
-    "arc": "https://discord.gg/pyRZ8fhe",
-    "phw": "https://discord.gg/MRz86aQ8rA"
+    "arc": "https://discord.gg/pyRZ8fhe"
   },
   "website": {
     "title": "State 1676 - Snow Battle Championship",
-    "description": "Four elite alliances united under the NAP4 system - the most strategic and coordinated alliance network in Whiteout Survival."
+    "description": "Three elite alliances united under the NAP3 system - the most strategic and coordinated alliance network in Whiteout Survival."
   },
   "status": {
     "operational": true,

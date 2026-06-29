@@ -5,7 +5,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
-import { Trophy, Users, Sword } from 'lucide-react';
+import { Users, Sword } from 'lucide-react';
 import { getAlliances, getTotalMembers, serverConfig } from '@/data';
 
 // Register GSAP plugins
@@ -116,13 +116,13 @@ const Alliances = () => {
           className="text-center mb-16"
         >
           <div className="text-[#8efff9] font-mono text-sm mb-4">
-            &gt; ACCESSING_NAP4_DATABASE...
+            &gt; ACCESSING_NAP3_DATABASE...
           </div>
           <h2 className="text-4xl sm:text-5xl font-heading font-bold text-gradient text-glow-cyan mb-6">
-            NAP4 ALLIANCE NETWORK
+            NAP3 ALLIANCE NETWORK
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Four elite alliances united under the <span className="text-[#00f0ff]">NAP4 system</span> - 
+            Three elite alliances united under the <span className="text-[#00f0ff]">NAP3 system</span> -
             the most strategic and coordinated alliance network in Whiteout Survival.
           </p>
           <div className="mt-6 text-[#8efff9] font-mono text-sm">
@@ -172,11 +172,6 @@ const Alliances = () => {
                         </p>
                       )}
                     </div>
-                  </div>
-                  
-                  <div className="flex items-center space-x-2">
-                    <Trophy className="w-5 h-5" style={{ color: alliance.color, filter: `drop-shadow(0 0 3px ${alliance.color})` }} />
-                    <span className="font-bold text-white font-mono">#{alliance.rank}</span>
                   </div>
                 </div>
 
