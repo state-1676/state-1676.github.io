@@ -1,12 +1,12 @@
 [
   {
-    "name": "TH3",
+    "name": "BaD",
     "color": "#00f0ff",
     "events": [
       {
         "name": "Bear",
         "emoji": "🧸",
-        "times": ["01:00 UTC", "14:00 UTC", "19:00 UTC"],
+        "times": ["14:00 UTC", "19:00 UTC"],
         "color": "#00f0ff"
       },
       {
@@ -24,7 +24,7 @@
       {
         "name": "CJ",
         "emoji": "🗳️",
-        "times": ["15:00 UTC", "20:00 UTC"],
+        "times": ["15:00 UTC", "19:00 UTC"],
         "color": "#a855f7",
         "isVoteDependent": true
       }
