@@ -9,12 +9,10 @@ import {
   Users, 
   Trophy, 
   Target, 
-  MessageCircle, 
-  Zap,
+  MessageCircle,
   Crown,
   Swords
 } from 'lucide-react';
-import { serverConfig } from '@/data';
 
 // Register GSAP plugins
 if (typeof window !== 'undefined') {
@@ -298,28 +296,6 @@ const ServerBanner = () => {
             </motion.h2>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <motion.a
-                href={serverConfig.discordLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative px-10 py-4 bg-gradient-to-r from-[#fbbf24] to-[#ff8c00] text-[#050d1c] rounded-lg font-bold text-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-3 animate-pulse-glow"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <span className="font-mono">JOIN DISCORD NOW</span>
-                <motion.div
-                  animate={{ x: [0, 5, 0] }}
-                  transition={{ duration: 1.5, repeat: Infinity }}
-                >
-                  <Zap className="w-6 h-6" />
-                </motion.div>
-                {/* Corner accents */}
-                <div className="absolute -top-1 -left-1 w-4 h-4 border-l-2 border-t-2 border-[#fbbf24]" />
-                <div className="absolute -top-1 -right-1 w-4 h-4 border-r-2 border-t-2 border-[#fbbf24]" />
-                <div className="absolute -bottom-1 -left-1 w-4 h-4 border-l-2 border-b-2 border-[#fbbf24]" />
-                <div className="absolute -bottom-1 -right-1 w-4 h-4 border-r-2 border-b-2 border-[#fbbf24]" />
-              </motion.a>
-              
               <motion.a
                 href="#alliances"
                 className="group relative px-10 py-4 panel-neon text-[#00f0ff] rounded-lg font-semibold text-xl font-mono transition-all duration-300 transform hover:scale-105 inline-flex items-center space-x-3"

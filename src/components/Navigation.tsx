@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 import { Menu, X, Home, Users, Calendar, Camera, Scroll, Hammer, ExternalLink } from 'lucide-react';
 import State1676Icon from './State1676Icon';
-import { serverConfig } from '@/data';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -142,20 +141,6 @@ const Navigation = () => {
                   <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#00f0ff] group-hover:w-full transition-all duration-300" style={{ boxShadow: '0 0 5px #00f0ff' }} />
                 </a>
               ))}
-              
-              <a
-                href={serverConfig.discordLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative bg-gradient-to-r from-[#00f0ff] to-[#8efff9] text-[#050d1c] px-6 py-2 rounded-lg font-semibold font-mono transition-all duration-200 transform hover:scale-105 animate-pulse-glow"
-              >
-                JOIN_DISCORD
-                {/* Corner accents */}
-                <div className="absolute -top-0.5 -left-0.5 w-2 h-2 border-l border-t border-[#00f0ff]" />
-                <div className="absolute -top-0.5 -right-0.5 w-2 h-2 border-r border-t border-[#00f0ff]" />
-                <div className="absolute -bottom-0.5 -left-0.5 w-2 h-2 border-l border-b border-[#00f0ff]" />
-                <div className="absolute -bottom-0.5 -right-0.5 w-2 h-2 border-r border-b border-[#00f0ff]" />
-              </a>
             </div>
           </div>
         </div>
@@ -261,24 +246,6 @@ const Navigation = () => {
                 <span className="text-gray-300 font-medium font-mono">{item.label.toUpperCase()}</span>
               </motion.a>
             ))}
-            
-            <motion.a
-              href={serverConfig.discordLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              initial={{ x: 50, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: navItems.length * 0.1 }}
-              onClick={() => setIsOpen(false)}
-              className="relative block w-full mt-6 bg-gradient-to-r from-[#00f0ff] to-[#8efff9] text-[#050d1c] px-6 py-3 rounded-lg font-semibold text-center font-mono transition-all duration-200 animate-pulse-glow"
-            >
-              JOIN_DISCORD
-              {/* Corner accents */}
-              <div className="absolute -top-0.5 -left-0.5 w-2 h-2 border-l border-t border-[#00f0ff]" />
-              <div className="absolute -top-0.5 -right-0.5 w-2 h-2 border-r border-t border-[#00f0ff]" />
-              <div className="absolute -bottom-0.5 -left-0.5 w-2 h-2 border-l border-b border-[#00f0ff]" />
-              <div className="absolute -bottom-0.5 -right-0.5 w-2 h-2 border-r border-b border-[#00f0ff]" />
-            </motion.a>
           </div>
         </motion.div>
 

@@ -34,5 +34,5 @@ export interface ServerConfig {
   serverNumber: string;
   napSystem: string;
   totalMembers: number;
-  discordLink: string;
+  recruitmentDiscordLink: string;
 }

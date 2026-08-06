@@ -215,27 +215,7 @@ const Alliances = () => {
 
                 {/* Action Buttons */}
                 <div className="flex flex-col space-y-2 mt-auto">
-                  <button 
-                    className="w-full py-2 px-4 rounded-lg font-semibold hover:shadow-lg transition-all duration-200 text-[#050d1c] text-sm border-2"
-                    style={{ 
-                      background: `linear-gradient(to right, ${alliance.color}, ${alliance.color}dd)`,
-                      borderColor: alliance.color,
-                      boxShadow: `0 0 10px ${alliance.color}40`
-                    }}
-                    onClick={() => {
-                      // Get alliance-specific Discord link
-                      const discordLinks = serverConfig.allianceDiscordLinks;
-                      const allianceKey = alliance.id.toLowerCase();
-                      const discordUrl = discordLinks[allianceKey as keyof typeof discordLinks] || serverConfig.discordLink;
-                      
-                      // Open Discord link in new tab
-                      window.open(discordUrl, '_blank', 'noopener,noreferrer');
-                    }}
-                  >
-                    Join {alliance.name} Discord
-                  </button>
-                  
-                  <button 
+                  <button
                     className="w-full py-2 px-4 rounded-lg font-semibold hover:shadow-lg transition-all duration-200 text-sm border-2 bg-transparent hover:bg-white/10"
                     style={{ 
                       borderColor: alliance.color,

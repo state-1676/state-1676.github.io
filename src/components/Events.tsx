@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import EventTimeline from './EventTimeline';
-import { getAllEvents, serverConfig } from '@/data';
+import { getAllEvents } from '@/data';
 
 const Events = () => {
   // Load event data from centralized data files
@@ -84,47 +84,6 @@ const Events = () => {
           ))}
         </div>
 
-        {/* Event Coordination CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="mt-16 text-center"
-        >
-          <div className="relative panel-neon bg-gradient-to-r from-[#00f0ff]/10 to-[#8efff9]/10 rounded-lg p-8">
-            {/* Corner Accents */}
-            <div className="absolute -top-1 -left-1 w-4 h-4 border-l-2 border-t-2 border-[#00f0ff]" />
-            <div className="absolute -top-1 -right-1 w-4 h-4 border-r-2 border-t-2 border-[#00f0ff]" />
-            <div className="absolute -bottom-1 -left-1 w-4 h-4 border-l-2 border-b-2 border-[#00f0ff]" />
-            <div className="absolute -bottom-1 -right-1 w-4 h-4 border-r-2 border-b-2 border-[#00f0ff]" />
-            
-            <div className="text-[#8efff9] font-mono text-sm mb-2">
-              &gt; ALLIANCE_COORDINATION_HUB
-            </div>
-            <h3 className="text-2xl font-heading font-bold text-gradient text-glow-cyan mb-4">
-              JOIN YOUR ALLIANCE EVENTS
-            </h3>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Connect with your specific alliance leadership on Discord for event coordination. 
-              Each alliance manages their own <span className="text-purple-400">voting schedules</span> and 
-              <span className="text-[#00f0ff]">event timings</span>.
-            </p>
-            <a
-              href={serverConfig.discordLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative inline-block bg-gradient-to-r from-[#00f0ff] to-[#8efff9] text-[#050d1c] px-8 py-3 rounded-lg font-semibold font-mono hover:shadow-xl transition-all duration-300 transform hover:scale-105 animate-pulse-glow"
-            >
-              JOIN_ALLIANCE_DISCORD
-              {/* Corner accents for button */}
-              <div className="absolute -top-0.5 -left-0.5 w-2 h-2 border-l border-t border-[#00f0ff]" />
-              <div className="absolute -top-0.5 -right-0.5 w-2 h-2 border-r border-t border-[#00f0ff]" />
-              <div className="absolute -bottom-0.5 -left-0.5 w-2 h-2 border-l border-b border-[#00f0ff]" />
-              <div className="absolute -bottom-0.5 -right-0.5 w-2 h-2 border-r border-b border-[#00f0ff]" />
-            </a>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
