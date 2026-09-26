@@ -55,16 +55,16 @@
   {
     "id": "mis",
     "name": "MIS",
-    "fullName": "MIS",
+    "fullName": "BraveHearts",
     "rank": 4,
-    "members": 50,
+    "members": 94,
     "svsScore": "NAP4 Newcomer",
-    "description": "Arrived from state 1652 in September 2026, MIS is 1676's newest alliance: a free-spirited crew of around 50 playing across the US, Europe, Asia and Oceania.",
+    "description": "Arrived from state 1652 in September 2026, MIS is 1676's newest alliance: a free-spirited crew of around 90 playing across the US, Europe, Asia and Oceania.",
     "achievements": [
       "Newest Alliance",
       "Worldwide Roster"
     ],
-    "leader": "Archangel",
+    "leader": "Aitken",
     "color": "#fbbf24",
     "bgGradient": "from-[#fbbf24]/20 to-[#ff004f]/20",
     "tagline": "Free spirits. Worldwide."
