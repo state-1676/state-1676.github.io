@@ -11,7 +11,9 @@
   },
   "status": {
     "operational": true,
-    "svsRecord": "UNDEFEATED",
-    "lastUpdated": "2024-01-15"
+    "svsRecord": "21–3 (88%)",
+    "svsPrepWins": 21,
+    "svsPrepLosses": 3,
+    "lastUpdated": "2026-09-26"
   }
 }

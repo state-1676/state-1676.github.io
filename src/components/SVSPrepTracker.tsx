@@ -17,6 +17,7 @@ import {
   Share2
 } from 'lucide-react';
 import { SVSPrepData } from '@/data/svs-prep-types';
+import { serverConfig } from '@/data';
 
 // Register GSAP plugins
 if (typeof window !== 'undefined') {
@@ -140,7 +141,7 @@ const SVSPrepTracker = ({
               {description}
             </p>
             <div className="mt-6 text-[#8efff9] font-mono text-sm">
-              &gt; VICTORY_RATE: 100% | TOTAL_PREPS: {preps.length} | STATUS: UNDEFEATED
+              &gt; VICTORY_RATE: {Math.round((serverConfig.status.svsPrepWins / (serverConfig.status.svsPrepWins + serverConfig.status.svsPrepLosses)) * 100)}% | RECORD: {serverConfig.status.svsPrepWins}–{serverConfig.status.svsPrepLosses} | TOTAL_PREPS: {serverConfig.status.svsPrepWins + serverConfig.status.svsPrepLosses}
             </div>
           </motion.div>
 
