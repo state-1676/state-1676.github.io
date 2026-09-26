@@ -5,7 +5,7 @@
     "fullName": "Better after Dark",
     "rank": 1,
     "members": 100,
-    "svsScore": "NAP3 Mastery",
+    "svsScore": "NAP4 Mastery",
     "description": "Born from the fusion of AOT and 3NG, BaD represents elite strategic excellence and coordinated warfare.",
     "achievements": [
       "Diplomatic Mastery",
@@ -23,8 +23,8 @@
     "fullName": "ARChitects of Chaos",
     "rank": 2,
     "members": 100,
-    "svsScore": "NAP3 Elite",
-    "description": "Tactical innovators specializing in coordinated strikes and strategic positioning within NAP3.",
+    "svsScore": "NAP4 Elite",
+    "description": "Tactical innovators specializing in coordinated strikes and strategic positioning within NAP4.",
     "achievements": [
       "Thug Life",
       "Top Alliance Power",
@@ -41,8 +41,8 @@
     "fullName": "ApexPredators",
     "rank": 3,
     "members": 97,
-    "svsScore": "NAP3 Veteran",
-    "description": "Originally from server 1641, APX brings veteran experience and strategic depth to NAP3.",
+    "svsScore": "NAP4 Veteran",
+    "description": "Originally from server 1641, APX brings veteran experience and strategic depth to NAP4.",
     "achievements": [
       "Cross-Server Veterans",
       "Strategic Experience"
@@ -51,5 +51,22 @@
     "color": "#ff004f",
     "bgGradient": "from-[#ff004f]/20 to-[#bf00ff]/20",
     "tagline": "Experience. Loyalty. Excellence."
+},
+  {
+    "id": "mis",
+    "name": "MIS",
+    "fullName": "MIS",
+    "rank": 4,
+    "members": 50,
+    "svsScore": "NAP4 Newcomer",
+    "description": "Arrived from state 1652 in September 2026, MIS is 1676's newest alliance: a free-spirited crew of around 50 playing across the US, Europe, Asia and Oceania.",
+    "achievements": [
+      "Newest Alliance",
+      "Worldwide Roster"
+    ],
+    "leader": "Archangel",
+    "color": "#fbbf24",
+    "bgGradient": "from-[#fbbf24]/20 to-[#ff004f]/20",
+    "tagline": "Free spirits. Worldwide."
   }
 ]

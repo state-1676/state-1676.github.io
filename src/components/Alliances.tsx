@@ -116,13 +116,13 @@ const Alliances = () => {
           className="text-center mb-16"
         >
           <div className="text-[#8efff9] font-mono text-sm mb-4">
-            &gt; ACCESSING_NAP3_DATABASE...
+            &gt; ACCESSING_NAP4_DATABASE...
           </div>
           <h2 className="text-4xl sm:text-5xl font-heading font-bold text-gradient text-glow-cyan mb-6">
-            NAP3 ALLIANCE NETWORK
+            NAP4 ALLIANCE NETWORK
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Three elite alliances united under the <span className="text-[#00f0ff]">NAP3 system</span> -
+            Four alliances united under the <span className="text-[#00f0ff]">NAP4 system</span> -
             the most strategic and coordinated alliance network in Whiteout Survival.
           </p>
           <div className="mt-6 text-[#8efff9] font-mono text-sm">
@@ -131,7 +131,7 @@ const Alliances = () => {
         </motion.div>
 
         {/* Alliances Grid */}
-        <div ref={cardsRef} className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+        <div ref={cardsRef} className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {alliances.map((alliance, index) => (
             <motion.div
               key={alliance.id}
